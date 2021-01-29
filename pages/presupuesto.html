@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Herrería Alas, empresa familiar con más de 30 años de experiencia en el rubro. Trabajos en Capital y Gran Buenos Aires. Presupuesto SIN CARGO">
+    <meta name="keywords" content="Herreria, herreria de obra, techos de policarbonato, proteccion de balcones, proteccion de piletas, techos de hierro, portones levadizos, portones automaticos, automatizacion de portones, puertas de rejas, parrillas, escaleras de hierro, escaleras de interior, portones, ventanas, aluminio, cerramientos, ">
+    <title>Herreria Alas</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/pruebacss.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="trabajos.html">Trabajos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="servicios.html" >
+              Servicios
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="clientes.html">Clientes</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="presupuesto.html">Presupuesto</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+</nav>
+    
+   <!-- <form action="" enctype="" method="">
+        <fieldset>
+            <legend>Solicitá tu Presupuesto</legend>
+            <input type="text" name="Nombre" size="10" placeholder="Nombre" class="nombre" required>
+            <input type="text" name="apellido" size="10" placeholder="Apellido" class="apellido" required>
+            <input type="email" name="mail" placeholder="Email" class="email" required>
+            <input type="number" name="telefono" placeholder="Teléfono" class="telefono">
+            <input type="date" name="fecha">
+            <input type="password" name="contraseña">-->
+            
+            <!--<label for="caba">CABA</label>
+            <input type="radio" name="zona"  value="caba" id="caba">
+            <label for="amba">AMBA</label>
+            <input type="radio" name="zona" value="amba" id="amba">
+            <span>¿Cómo preferís que te contactemos?</span>
+            <input type="checkbox" name="telefono">Teléfono
+            <input type="checkbox" name="mail">E-mail 
+            
+            <label for="segmentacion" class="labelSegmentacion">¿Cómo nos conociste?:</label>
+            <select name="segmentacion" id="segmentacion">
+                <option value="buscadores">Google</option>
+                <option value="redes">Redes Sociales (Facebook, Instagram, etc)</option>
+                <option value="conocidos">Familiar, amigo, y/o conocido</option>
+            </select>
+            <textarea name="consulta" id="consulta" cols="30" rows="15" placeholder="Solicito presupuesto de..."></textarea>
+            <input type="submit" value="Enviar" class="enviar">    
+            <input type="reset" value="Restablecer" class="reestablecer">
+        </fieldset>-->
+    </form>
+    
+    <h1 class="text-center mt-3" id="sincargo">Solicitá tu presupuesto SIN CARGO</h1>
+    <form class="col-12" id="formulario">
+        <div class="form-group">
+          <div class="form-group col-12">
+            <label for="nombre"></label>
+            <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+          </div>
+          <div class="form-group col-12">
+            <label for="apellido"></label>
+            <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+          </div>
+        </div>
+        <div class="form-group col-12">
+          <label for="mail"></label>
+          <input type="email" class="form-control" id="mail" placeholder="Email">
+        </div>
+        <div class="form-group col-12">
+          <label for="formtel"></label>
+          <input type="number" class="form-control" id="formtel" placeholder="Teléfono">
+        </div>
+        <div class="form-group col-12">
+          <label for="exampleFormControlTextarea1"></label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Solicito presupuesto de..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-success ml-3" id="enviar">Enviar</button>
+        <button type="reset" class="btn btn-danger">Cancelar </button>
+      </form>
+      
+      
+      
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      
+</body>
+</html>

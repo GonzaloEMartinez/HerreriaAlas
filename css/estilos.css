@@ -1,0 +1,289 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+   }
+   
+
+  
+/*
+   .tittle {
+   background-image: url(../images/banner3.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 250px;
+   box-sizing: border-box;
+   margin-top: 10px;
+
+   }
+
+table tr th {
+    color: white;
+    
+}
+
+table tr td {
+    background-color: #609fd6;
+    color:white;
+    font-weight: bold;
+}
+
+table td {
+    width: 500px;
+}
+
+td.lista ul{
+    margin-left: 5rem;
+}
+
+td.lista2 ol {
+    margin-left: 5rem;
+}
+    
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+
+}
+
+
+
+.somos{
+    font-size: 2.5rem;
+    position: relative;
+    bottom: 70px;
+    left: 37%;
+    padding-bottom: 30px;
+    border-bottom: solid 3px black;
+    border-color: blue;
+}
+
+
+.divlogo {
+    height: max-content;
+    width: max-content;
+    position: relative;
+    top: 10px;
+    margin-left: 85%;
+    animation: rotar 8s infinite linear;
+
+}
+
+@keyframes rotar {
+    form {
+        transform: rotatey(0deg);
+    }
+
+    to {
+        transform: rotatey(360deg);
+    }
+}
+
+nav a{
+    color: black;
+    
+    
+    
+}
+
+nav a:hover{
+    color: white;
+}
+
+nav li { 
+        display: inline-block;
+        position: relative;
+        left: 66%;
+        font-size: 1.8rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        list-style: none;
+        padding: 10px 5px;
+        background-color: white;
+        transition: 0.5s;
+        border-right-style: groove;
+    }
+
+nav {
+        position: sticky;
+        top: 0px;
+        background-color: white;
+        padding: 5px;
+        z-index: 1000;    
+    }
+
+nav li:hover { 
+       transition-property: all;
+       transition-duration: 0.5s;
+       transition-timing-function: ease-in-out;
+       background-color: blue;
+       padding: 10px;
+       
+
+    }
+
+   table { 
+       font-size: 2rem;
+       margin: 10px;
+       
+
+   }
+
+   form {
+       width: 600px;
+       height: auto;
+       font-size: 1.5rem;
+       margin-top: 10px;
+       margin-left: 360px;
+       background-color: rgba(165, 148, 148, 0.692);
+       border: 5px rgb(81, 81, 228);
+       border-style: double;
+       border-radius: 10px;
+   }
+
+   footer {
+       font-size: 1.5rem;
+   }
+
+
+   section { 
+       position: relative;
+   }
+
+   .imagen1 {
+       width: 600px;
+       height: 600px;
+       margin: 5px;
+       padding: 10px;
+       
+   }
+
+  .historia{
+      font-size: 1.5rem;
+      width: 700px;
+      position: absolute;
+      left: 45%;
+      bottom: 100px;
+      padding: 10px;
+      margin-left: 10px;
+      
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    footer {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-top: 5px;
+        }
+
+    .clientes { 
+        font-size: 2rem;
+        padding: 10px;
+    }
+
+    .tituloclientes{ 
+        font-size: 2rem;
+        padding: 10px;
+        
+    }
+
+    .subtituloclientes {
+        font-size: 2rem;
+        padding: 10px;
+    }
+
+    .labelSegmentacion {
+        width: max-content;
+    }
+   
+   .nombre, .apellido, .telefono, .email, .labelSegmentacion {
+        display: block;
+        margin: 10px;
+        position: relative;
+        left: 22rem;
+       
+   }
+
+   #segmentacion, #consulta {
+       display: block;
+       margin: 10px;
+       position: relative;
+       left: 22rem;
+   }
+
+   .enviar, .reestablecer {
+    margin: 10px;
+    position: relative;
+    left: 22rem;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(86, 86, 230);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+   }
+
+   
+  .grid {
+    display: grid;
+    grid-template-areas: "datos datos datos"
+                         ". . logo"
+                         "titulo titulo titulo";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:10% 20% auto ;
+    
+    
+}
+
+.headContacto {
+    grid-area: datos ;
+    background-color: rgba(97, 97, 218, 0.829);
+    padding: 10px;
+    
+}
+
+.datosContacto {
+    
+  }
+  
+
+.divlogo { 
+    grid-area: logo;
+    justify-self: end;
+    
+    
+}
+
+.tittle {
+    grid-area: titulo;
+}
+
+
+.galeria{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-row: 200px 200px 200px;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    transition: 1s;
+    
+    }
+   
+.galeria1{
+    width: 200px;
+    height: 200px;
+    transition-duration: 0.5s;
+}
+
+.galeria1:hover{
+    transform: scale(1.1, 1);
+    transition-duration: 0.5s;
+    
+}
+
+
+
