@@ -6,6 +6,25 @@ html {
   margin: 0;
   padding: 0; }
 
+  .div-contenedor{
+    width: 90%;
+    margin: auto;
+    margin-top: 150px;
+  }
+
+  .logo_clientes{
+    width: 80px;
+    height: 50px;
+    
+  }
+
+  .logo_vw{
+    width: 50px;
+  }
+.div-form{
+  width: 50%;
+}
+
 body {
   background-color: #d5ddeb; }
 
@@ -108,8 +127,10 @@ section .icon1, section .icon2, .icon3, .icon4 {
 
 .quienes-somos-img {
   border-radius: 20%;
+  max-width: 100%;
   width: 200px;
-  height: 450px; }
+  
+ }
 
 /*
 .galeria{
@@ -139,8 +160,11 @@ section .icon1, section .icon2, .icon3, .icon4 {
 #formulario {
   display: inline-block;
   position: relative;
-  padding: 50px;
-  border-style: double;
+  margin-top: 30px;
+  margin-left: 25%;
+  padding: 25px;
+  
+  
   background-color: #6987c0;
   width: 50%;
   height: 50%; }
@@ -149,11 +173,9 @@ input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none; }
 
-#sincargo {
-  display: inline-block;
-  position: relative;
-  bottom: 300px;
-  left: 110px; }
+textarea {
+  resize: none;
+}
 
 #divTitulo {
   border-bottom: solid 1px black; }
@@ -183,7 +205,7 @@ input[type=number]::-webkit-outer-spin-button {
   display: flex;
   flex-direction: row-reverse;
   padding-right: 50px;
-  margin-top: 100px; }
+  margin-top: 60px; }
 
 .div-calidad {
   display: flex;
@@ -229,7 +251,9 @@ input[type=number]::-webkit-outer-spin-button {
   width: 100%; }
 
 .quienes-somos-img {
-  width: 100%; }
+  width: 100%; 
+  
+}
 
 hr {
   height: 1px;
@@ -336,6 +360,7 @@ hr {
     
 }
 */
+
 @media (max-width: 600px) {
   #carouselExampleControls {
     width: 100%; }
