@@ -264,6 +264,8 @@ hr {
   font-size: 70px;
   opacity: 1; }
 
+
+
 /*
 @media (max-width: 500px){
     #carouselExampleControls{
@@ -426,6 +428,9 @@ hr {
     color: white;
     background-color: #6b5b5b; } }
 
+   
+    
+
 @media (max-width: 380px) {
   #carouselExampleControls {
     width: 100%; }
@@ -489,4 +494,10 @@ hr {
     top: 0px;
     list-style: none;
     color: white;
-    background-color: #6b5b5b; } }
+    background-color: #6b5b5b; }
+  
+    #formulario {
+      width: 100%;
+      margin: auto;
+    }
+    }
