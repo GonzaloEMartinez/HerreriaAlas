@@ -426,7 +426,12 @@ hr {
     top: 0px;
     list-style: none;
     color: white;
-    background-color: #6b5b5b; } }
+    background-color: #6b5b5b; }
+  
+    #formulario {
+      width: 100%;
+      margin: auto;
+    }}
 
    
     
